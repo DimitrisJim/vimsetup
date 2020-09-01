@@ -1,0 +1,21 @@
+[submodule "pack/plugins/start/nerdtree"]
+	path = pack/plugins/start/nerdtree
+	url = https://github.com/preservim/nerdtree.git
+[submodule "pack/plugins/start/vim-airline"]
+	path = pack/plugins/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule "pack/plugins/start/vim-gitgutter"]
+	path = pack/plugins/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "pack/python/start/jedi-vim"]
+	path = pack/python/start/jedi-vim
+	url = https://github.com/davidhalter/jedi-vim.git
+[submodule "pack/python/start/vim-flake8"]
+	path = pack/python/start/vim-flake8
+	url = https://github.com/nvie/vim-flake8.git
+[submodule "pack/rust/start/rust.vim"]
+	path = pack/rust/start/rust.vim
+	url = https://github.com/rust-lang/rust.vim
+[submodule "pack/rust/start/syntastic"]
+	path = pack/rust/start/syntastic
+	url = git@github.com:vim-syntastic/syntastic.git

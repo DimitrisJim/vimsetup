@@ -19,3 +19,18 @@
 [submodule "pack/rust/start/syntastic"]
 	path = pack/rust/start/syntastic
 	url = git@github.com:vim-syntastic/syntastic.git
+[submodule "pack/plugins/start/vim-prosession"]
+	path = pack/plugins/start/vim-prosession
+	url = git@github.com:dhruvasagar/vim-prosession.git
+[submodule "pack/plugins/start/vim-obsession"]
+	path = pack/plugins/start/vim-obsession
+	url = git@github.com:tpope/vim-obsession.git
+[submodule "pack/plugins/start/rainbow_parentheses.vim"]
+	path = pack/plugins/start/rainbow_parentheses.vim
+	url = git@github.com:kien/rainbow_parentheses.vim.git
+[submodule "pack/clojure/start/vim-clojure-static"]
+	path = pack/clojure/start/vim-clojure-static
+	url = git@github.com:guns/vim-clojure-static.git
+[submodule "pack/clangs/start/vim-cmake"]
+	path = pack/clangs/start/vim-cmake
+	url = git@github.com:vhdirk/vim-cmake.git

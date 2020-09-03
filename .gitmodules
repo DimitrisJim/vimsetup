@@ -31,6 +31,9 @@
 [submodule "pack/clojure/start/vim-clojure-static"]
 	path = pack/clojure/start/vim-clojure-static
 	url = git@github.com:guns/vim-clojure-static.git
+[submodule "pack/plugins/start/preview-markdown.vim"]
+	path = pack/plugins/start/preview-markdown.vim
+	url = git@github.com:skanehira/preview-markdown.vim.git
 [submodule "pack/clangs/start/vim-cmake"]
 	path = pack/clangs/start/vim-cmake
-	url = git@github.com:vhdirk/vim-cmake.git
+	url = git@github.com:cdelledonne/vim-cmake.git

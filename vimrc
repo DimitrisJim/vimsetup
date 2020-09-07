@@ -37,6 +37,9 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
 
+" Disable ex mode with Q.
+nnoremap Q <nop>
+
 " Open NERDTree automatically (and be aware of any sessions.
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
@@ -44,4 +47,3 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 " Airline settings:
 " Display all open buffers if there's only one tab open.
 let g:airline#extensions#tabline#enabled = 1
-

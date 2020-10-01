@@ -37,3 +37,8 @@ preview-markdown:
 
 Previews markdown inside terminal by using `mdr` (download binary and move to `/usr/local/bin` for example.
 Does not automatically reload or do any other 'fancy' things. `PreviewMarkdown` is only command available; launches in a new :term and you can Control C your way out of it.
+
+vim-gitignore:
+--------------
+
+Adds syntax highlighting for `.gitignore` files. Can also be used to autogen snippets but I haven't added necessary packages for that.

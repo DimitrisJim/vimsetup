@@ -22,6 +22,10 @@ set showmatch
 " don't prompt to save when buffer goes to hidden
 set hidden
 
+" make left and right wrap around to go to next/previous line
+set whichwrap+=>,l
+set whichwrap+=<,h
+
 " Enable per filetype settings
 filetype plugin on
 filetype plugin indent on

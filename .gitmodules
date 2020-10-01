@@ -37,3 +37,9 @@
 [submodule "pack/clangs/start/vim-cmake"]
 	path = pack/clangs/start/vim-cmake
 	url = git@github.com:cdelledonne/vim-cmake.git
+[submodule "pack/clojure/start/vim-racket"]
+	path = pack/clojure/start/vim-racket
+	url = git@github.com:wlangstroth/vim-racket.git
+[submodule "pack/plugins/start/vim-gitignore"]
+	path = pack/plugins/start/vim-gitignore
+	url = git@github.com:gisphm/vim-gitignore.git

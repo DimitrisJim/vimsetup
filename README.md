@@ -22,6 +22,7 @@ Things I forget and commonly look up, add here until I learn them.
 
 - After issuing `:term` and getting into a terminal, you can switch out of 'terminal' mode by using `Cntr-W + N`. This way you can scroll up and see output like a normal human being.
    In general, control W controls many window aspects. For example, changing window width can be done with Cntr-W + (><), their position with Cntr-W + (hjkl).
+  In addition to this, to open a terminal in the current window, use `:term ++curwin`
 
 - `:sp` and `:vsp` - i.e, split and vertical split. super useful.
 

@@ -11,6 +11,7 @@ set number
 " tabs are four spaces long
 " and expand tabs to spaces
 set ts=4
+set shiftwidth=4
 set expandtab
 
 " show visual line under cursor's current line
@@ -45,8 +46,8 @@ nnoremap <C-l> <C-w>l
 nnoremap Q <nop>
 
 " Open NERDTree automatically (and be aware of any sessions.
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+" autocmd StdinReadPre * let s:std_in=1
+" autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 " Airline settings:
 " Display all open buffers if there's only one tab open.

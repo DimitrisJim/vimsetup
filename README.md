@@ -4,7 +4,7 @@ How to Use This:
 Clone the repository into a `.vim` subfolder (if one doesn't exist) with 
 
 ```sh
-git clone git@github.com:DimitrisJim/vimsetup.git .vim
+git clone --recurse-submodules git@github.com:DimitrisJim/vimsetup.git .vim
 ```
 
 Next, create a symbolic link to the `vimrc` contained in the `.vim` subdirectory:
@@ -14,6 +14,15 @@ ln -s ~/.vim/vimrc ~/.vimrc
 ```
 
 so `vim` can pick up the settings. 
+
+Plugins (except one, I believe) are added as [submodules][gitsubmodules] using vims default plugin mechanism (See `pack` folder).
+Updating them all in one go can be 
+done with:
+
+```sh
+git submodule update --remote
+```
+
 
 Usefull commands: 
 =================
@@ -31,3 +40,5 @@ Things I forget and commonly look up, add here until I learn them.
 - Vim leader key is `\`, many projects specify things by saying `<leader>Q`, for example, meaning `\Q`.
 
 - `:qa` and `:wqa` close all tabs and, in wqa case, save the contents. `:xa` also works. 
+
+[gitsubmodules]: https://git-scm.com/book/en/v2/Git-Tools-Submodules

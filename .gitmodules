@@ -43,3 +43,6 @@
 [submodule "pack/plugins/start/vim-gitignore"]
 	path = pack/plugins/start/vim-gitignore
 	url = git@github.com:gisphm/vim-gitignore.git
+[submodule "pack/plugins/start/ale"]
+	path = pack/plugins/start/ale
+	url = git@github.com:dense-analysis/ale.git

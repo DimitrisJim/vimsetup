@@ -46,8 +46,14 @@ nnoremap <C-l> <C-w>l
 " Disable ex mode with Q. I don't like it.
 nnoremap Q <nop>
 
-" Set background to NONE (match terminals)
+" Set background to NONE (match terminal's)
 hi Normal guibg=NONE ctermbg=NONE
+" Set background of NonText to NONE (match terminal's)
+hi NonText guibg=NONE ctermbg=NONE
 " Set columns (num, sign) equally.
 hi LineNr ctermbg=NONE guibg=NONE
 hi SignColumn ctermbg=NONE guibg=NONE
+
+" Go through buffers with Control + (n or p)
+:nnoremap <C-n> :bnext<CR>
+:nnoremap <C-p> :bprevious<CR>

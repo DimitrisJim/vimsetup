@@ -1,6 +1,20 @@
 General Plugins:
 ================
 
+ultisnips:
+----------
+
+See [Github][vimusnips] for more.
+
+Snippet engine. Comes in handy for repetitive operations.
+
+vim-snippets:
+-------------
+
+See [Github][vimsnips] for more.
+
+Snippets for ultisnips. Has many snippets for different languages.
+
 ale: 
 ----
 
@@ -59,6 +73,8 @@ See [Github][vimgitignore] for more.
 
 Adds syntax highlighting for `.gitignore` files. Can also be used to autogen snippets but I haven't added necessary packages for that.
 
+[vimusnips]: https://github.com/sirver/ultisnips
+[vimsnips]: https://github.com/honza/vim-snippets
 [vimairline]: https://github.com/vim-airline/vim-airline/
 [vimgitgut]: https://github.com/airblade/vim-gitgutter
 [cocnvim]: https://github.com/neoclide/coc.nvim

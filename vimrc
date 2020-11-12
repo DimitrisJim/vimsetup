@@ -57,3 +57,13 @@ hi SignColumn ctermbg=NONE guibg=NONE
 " Go through buffers with Control + (n or p)
 :nnoremap <C-n> :bnext<CR>
 :nnoremap <C-p> :bprevious<CR>
+
+" Setting for built-in navigator netrw
+"  Don't show banner.
+let g:netrw_banner = 0
+" Show tree-view 
+let g:netrw_liststyle = 3
+" Open new files in vertical split.
+let g:netrw_browse_split = 2
+" Width of window.
+let g:netrw_winsize = 25

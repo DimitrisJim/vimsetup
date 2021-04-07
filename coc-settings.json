@@ -1,7 +1,6 @@
 {
-  "python.linting.pylintEnabled": false,
-  "python.linting.flake8Enabled": true,
-  "python.linting.enabled": true,
-  // Allow ale to take over diagnostics
-  "diagnostic.displayByAle": true,
+  // Show errors on current line
+  "diagnostic.checkCurrentLine": true,
+  "coc.preferences.extensionUpdateCheck": "daily",
+  "python.linting.flake8Args": "bit.py:W605"
 }
